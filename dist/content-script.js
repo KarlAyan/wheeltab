@@ -103,7 +103,7 @@ function manage_wheel(event) {
 }
 
 function load_menu(event) {
-	if(event.button === 0) {
+	if(event.button === 2) {
 		wheel_abort = new AbortController();
 		mouseup_abort = new AbortController();
 		keydown_abort = new AbortController();
